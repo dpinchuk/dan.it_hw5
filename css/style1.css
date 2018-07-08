@@ -1,0 +1,226 @@
+body {
+    font-family: Arimo, sans-serif;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.main-container {
+    width: 1192px;
+    background-color: #374765;
+    padding-top: 25px;
+    padding-bottom: 31px;
+    margin: 0 auto;
+}
+
+.main-table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.table-header {
+    background-color: #fafafa;
+}
+
+.table-header th {
+    box-shadow: inset 5px 0 5px -5px rgba(0,0,0,0.27);
+}
+
+td {
+    padding-top: 27px ;
+    padding-bottom: 25px;
+    width: 277px;
+    text-align: center;
+    color: #484848;
+    text-transform: uppercase;
+}
+
+.main-table td {
+    box-shadow: inset 5px 0 5px -5px rgba(0,0,0,0.27);
+}
+
+.table-body-row:nth-child(odd) {
+    background-color: #f2f2f2;
+
+}
+
+.table-body-row:nth-child(even) {
+    background-color: #e3e3e3;
+}
+
+.table-header__title {
+    color: #484848;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 310px;
+}
+
+.table-header__title-small {
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.table-header__title-big {
+    font-size: 30px;
+}
+
+.name-plan-items {
+    color: #ffffff;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    vertical-align: top;
+}
+
+.standard-price-plan {
+    background-color: #89c331;
+    font-size: 24px;
+}
+
+.ultimate-pricing-plan {
+    background-color: #f04a56;
+    font-size: 30px;
+}
+
+.premium-pricing-plan {
+    background-color: #20807c;
+    font-size: 24px;
+}
+
+.price-plan-items {
+    padding: 13px 33px;
+    text-transform: uppercase;
+    color: #484848;
+    position: relative;
+    text-align: left;
+}
+
+.currensy-price-plan {
+    font-size: 60px;
+    font-weight: 700;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.cents-price-plan {
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    right: 105px;
+    top: 18px;
+}
+
+.clarification-price-plan {
+    font-size: 18px;
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+}
+
+.icon-info::before {
+    margin-right: 12px;
+    color: #848484;
+    font-size: 24px;
+}
+
+.table-footer {
+    background-color: #f2f2f2;
+}
+
+.btn {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    width: 190px;
+}
+
+.contact-us-btn {
+    background-color: #464646;
+    box-shadow: 0 7px 0 #404040;
+}
+
+.contact-us-btn:hover {
+    box-shadow: 5px -5px 0 #737373;
+}
+
+.btn-standart-plan {
+    background-color: #8ac42d;
+    box-shadow: 0 7px 0 #79b027;
+}
+
+.btn-standart-plan:hover {
+    box-shadow: 5px -5px 0 #b3de6e;
+}
+
+.btn-ultimate-plan {
+    background-color: #f04a56;
+    box-shadow: 0 7px 0 #df3a46;
+}
+
+.btn-ultimate-plan:hover {
+    box-shadow: 5px -5px 0 #f7a1a6;
+}
+
+.btn-premium-plan {
+    background-color: #20807c;
+    box-shadow: 0 7px 0 #16736f;
+}
+
+.btn-premium-plan:hover {
+    box-shadow: 5px -5px 0 #2eb8b3;
+}
+
+.table-footer td:first-child {
+    background-color: #dedede;
+}
+
+.table-footer td:last-child {
+    background-color: #efefef;
+}
+
+.icon-sprite {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url('../img/icons-pplan.png');
+}
+
+.icon-storage {
+    background-position: -55px -55px;
+}
+
+.icon-bandwidth {
+    background-position: -10px -10px;
+}
+
+.icon-email {
+    background-position: -55px -10px;
+}
+
+.icon-support {
+    background-position: -100px -10px;
+}
+
+.icon-products {
+    background-position: -10px -55px;
+}
+
+.icon-users {
+    background-position: -100px -55px;
+}
+
+@font-face {
+    font-family: Arimo;
+    src: url(../fonts/Arimo-Regular.ttf);
+}
