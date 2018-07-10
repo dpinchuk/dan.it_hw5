@@ -28,7 +28,7 @@ body {
 }
 
 .text-header-item {
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 .text-uppercase {
@@ -66,11 +66,11 @@ body {
     height: 112px;
 }
 
-.table-header-cell-bgc:nth-child(odd) {
+.table-header-cell-bgc:nth-child(even) {
     background-color: #e3e3e3;
 }
 
-.table-header-cell-bgc:nth-child(even) {
+.table-header-cell-bgc:nth-child(odd) {
     background-color: #f2f2f2;
 }
 
@@ -81,12 +81,14 @@ body {
 }
 
 .text-name-plan {
+    padding-top: 20px;
     color: #ffffff;
     font-size: 24px;
     font-weight: 700;
 }
 
 .text-name-plan-currency {
+    padding-left: 25px;
     position: absolute;
     color: #ffffff;
     font-size: 36px;
@@ -100,6 +102,7 @@ body {
 }
 
 .text-name-plan-period {
+    padding-left: 60px;
     color: #ffffff;
     font-size: 14px;
     font-weight: 700;
@@ -121,12 +124,16 @@ body {
     background-color: #20807c;
 }
 
-.table-body-cell-bgc:nth-child(odd) {
+.table-body-cell-bgc:nth-child(even) {
     background-color: #e3e3e3;
 }
 
-.table-body-cell-bgc:nth-child(even) {
+.table-body-cell-bgc:nth-child(odd) {
     background-color: #f2f2f2;
+}
+
+.table-body-cell {
+    box-shadow: 5px 0 5px 0 rgba(0, 0, 0, 0.27)
 }
 
 .table-body-cell-size {
@@ -141,6 +148,6 @@ body {
     text-align: center;
 }
 
-p:first-child {
-    padding-bottom: 8px;
+tbody p:first-child {
+    padding-bottom: 10px;
 }
