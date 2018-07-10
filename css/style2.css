@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arimo, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.main-container {
+    width: 1200px;
+    background-color: #374765;
+    padding: 30px 30px;
+    margin: 0 auto;
+}
+
+.main-table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+.far, .fas {
+    color:  #848484;
+}
+
+.text-header-item {
+    padding-top: 5px;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.header-text-regular {
+    color: #484848;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.header-text-bold {
+    color: #484848;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.table-cell-choosing-bgc {
+    background-color: #fafafa;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.27);
+}
+
+.table-cell-choosing-size {
+    width: 198px;
+    height: 112px;
+}
+
+.table-header-cell-size {
+    width: 165px;
+    height: 112px;
+}
+
+.table-header-cell-bgc:nth-child(odd) {
+    background-color: #e3e3e3;
+}
+
+.table-header-cell-bgc:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-plan-cell-size{
+    position: relative;
+    width: 198px;
+    height: 166px;
+}
+
+.text-name-plan {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.text-name-plan-currency {
+    position: absolute;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.text-name-plan-cents{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.text-name-plan-period {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.table-plan-cell-plan {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.27);
+}
+
+.table-plan-cell-standart-bgc {
+    background-color: #89c331;
+}
+
+.table-plan-cell-ultimate-bgc {
+    background-color: #f04a56;
+}
+
+.table-plan-cell-premium-bgc {
+    background-color: #20807c;
+}
+
+.table-body-cell-bgc:nth-child(odd) {
+    background-color: #e3e3e3;
+}
+
+.table-body-cell-bgc:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-body-cell-size {
+    width: 157px;
+    height: 166px;
+}
+
+.table-body-cell-text {
+    color: #484848;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+p:first-child {
+    padding-bottom: 8px;
+}
